@@ -1,0 +1,62 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 16px;
+}
+
+.card-element {
+  width: 100%;
+}
+
+.card-content {
+  background-color: #FFFFFF;
+  padding: 8px;
+}
+
+.card-image {
+  background-image: url("https://source.unsplash.com/random/800x500");
+  height: 200px;
+  position: relative;
+}
+
+.card-profile {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.card-profile img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.list-icons {
+  display: flex;
+  column-gap: 24px;
+  justify-content: right;
+  color: rgb(180, 180, 180);
+}
+
+.list-icon {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+
+.btn-save {
+  padding: 8px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  color: #000000;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.card-content:hover .btn-save {
+  opacity: 1;
+}

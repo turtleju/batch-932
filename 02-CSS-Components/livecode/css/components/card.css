@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+.card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  padding: 0 24px;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+
+  border-radius: 20px 20px 250px 20px;
+
+  font-family: 'Roboto', sans-serif;
+
+  background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(177, 0, 227, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+.card--background{
+  background-color: rgb(240, 240, 240);
+  border-radius: 20px;
+  width: 350px;
+  height: 500px;
+}
+
+
+.card--price{
+  display: flex;
+  align-items: flex-end;
+  font-weight: 700;
+  font-size: 60px;
+}
+.card--price p {
+  margin: 0;
+}
+.card--price__currency{
+  align-self: flex-start;
+  font-size: 30px;
+}
+.card--price__period{
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+
+.card--foot{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.card--plan{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+  width: 70%;
+}
+
+.card--plan--rectangle{
+  background-color: white;
+  height: 5px;
+  flex-grow: 1;
+}
